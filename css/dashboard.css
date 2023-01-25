@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 80px;
+}
+
+#left-menu, #right-menu{
+    margin: 25px 0;
+}
+
+#left-menu ul, #right-menu ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-menu ul li, #right-menu ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+#menu-bar{
+    width: 24px;
+    height: 18px;
+}
+
+#logo{
+    width: 142px;
+    height: 30px;
+}
+
+#search-icon{
+    width: 15.59px;
+    height: 15.59px;
+}
+
+#search p{
+    font-size: 16px;
+    margin-top: 18px;
+    margin-left: -15px;
+}
+
+#not-icon{
+    width: 21.52px;
+    height: 21.06px;
+}
+
+#profile-pic{
+
+}
+
+#right-menu ul li p{
+    font-size: 16px;
+}
+
+#down-arr{
+
+}
