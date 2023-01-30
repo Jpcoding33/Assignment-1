@@ -364,6 +364,7 @@ label input {
 
     #section {
         padding: 72px 70px;
+        height: 100vh;
     }
 
     #company-logo {
