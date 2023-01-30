@@ -63,14 +63,14 @@ nav {
 }
 
 #search {
-    padding-left: 20px;
+    display: flex;
+    align-items: center;
     cursor: pointer;
 }
 
 #search p {
     font-size: 16px;
     margin-top: 18px;
-    margin-left: -15px;
 }
 
 #not-icon {
@@ -387,19 +387,56 @@ table tr:nth-child(n+1):nth-child(-n+9) {
     background-color: #F8F8F8;
 }
 
-@media (min-width: 576px) and (max-width: 767px){
-    #left-menu ul li{
+@media (max-width: 575px){
+    #left-menu, #right-menu{
+        padding: 10px 0;
+    }
+    nav{
+        height: 60px;
+    }
+    #left-menu ul{
         padding: 0 5px;
     }
-    #search{
+    #left-menu ul li {
+        padding: 0 4px;
+    }
+    #right-menu ul{
+        padding: 0 5px;
+    }
+    #right-menu ul li{
+        padding: 0 4px;
+    }
+    #right-menu ul li p{
+        font-size: 10px;
+    }
+
+    #not-icon{
+        width: 15px;
+        height: 15px;
+    }
+
+    #profile-pic{
+        padding-left: 10px;
+        width: 40px;
+        height: 30px;
+    }
+    #down-arr{
+        width: 15px;
+        height: 15px;
+    }
+
+    #search ul {
         padding: 0;
     }
-    #search p{
-        font-size: 15px;
+
+    #search p {
+        font-size: 10px;
     }
-    #logo{
-        width: 120px;
+
+    #logo {
+        width: 90px;
     }
+
     #dashboard h1 {
         font-size: 20px;
     }
@@ -407,10 +444,11 @@ table tr:nth-child(n+1):nth-child(-n+9) {
     .list-items {
         width: 150px;
         height: 90px;
-        padding: 0 10px;
+        padding: 0 5px;
+        margin: 5px;
     }
 
-    .list-items .list-icon{
+    .list-items .list-icon {
         width: 25px;
         height: 25px;
     }
@@ -442,11 +480,116 @@ table tr:nth-child(n+1):nth-child(-n+9) {
         height: 35px;
     }
 
-    #container ul li a p{
+    #container ul li a p {
         margin-left: 7px;
     }
-    
-    #pie-chart{
+
+    #pie-chart {
+        width: 300px;
+    }
+
+    .rows span {
+        width: 15px;
+        height: 15px;
+    }
+
+    #pie-chart h3,
+    #left-view h4,
+    #last-row div h3 {
+        font-size: 18px;
+    }
+
+    #right-view ul li {
+        font-size: 10px;
+    }
+
+    .rows p {
+        font-size: 12px;
+    }
+
+    #last-row {
+        width: 300px;
+        overflow: scroll;
+        padding: 10px;
+    }
+
+    table th, table tr td{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #left-menu ul li {
+        padding: 0 5px;
+    }
+
+    #right-menu ul li{
+        padding: 0 6px;
+    }
+
+    #profile-pic{
+        padding-left: 20px;
+    }
+
+    #search ul {
+        padding: 0;
+    }
+
+    #search p {
+        font-size: 15px;
+    }
+
+    #logo {
+        width: 120px;
+    }
+
+    #dashboard h1 {
+        font-size: 20px;
+    }
+
+    .list-items {
+        width: 150px;
+        height: 90px;
+        padding: 0 10px;
+    }
+
+    .list-items .list-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .num {
+        font-size: 18px;
+    }
+
+    .list-desc {
+        font-size: 8px;
+        padding-left: 10px;
+    }
+
+    #mid-items {
+        width: 100%;
+    }
+
+    #dashboard {
+        width: 400px;
+        padding: 20px;
+    }
+
+    #container {
+        padding: 20px 10px;
+    }
+
+    #container ul li a {
+        width: 120px;
+        height: 35px;
+    }
+
+    #container ul li a p {
+        margin-left: 7px;
+    }
+
+    #pie-chart {
         width: 300px;
     }
 
@@ -461,13 +604,20 @@ table tr:nth-child(n+1):nth-child(-n+9) {
     }
 
     .rows p {
-        font-size: 15px;
+        font-size: 13px;
     }
-    #last-row{
+
+    .rows span {
+        width: 15px;
+        height: 15px;
+    }
+
+    #last-row {
         overflow: scroll;
     }
-    table{
-        max-width: 100%;
+
+    table th, table tr td{
+        font-size: 12px;
     }
 }
 
@@ -513,7 +663,7 @@ table tr:nth-child(n+1):nth-child(-n+9) {
         height: 40px;
     }
 
-    #container ul li a p{
+    #container ul li a p {
         margin-left: 7px;
     }
 
@@ -526,11 +676,17 @@ table tr:nth-child(n+1):nth-child(-n+9) {
     .rows p {
         font-size: 15px;
     }
-    #last-row{
+
+    #last-row {
         overflow: scroll;
     }
-    table{
+
+    table {
         max-width: 100%;
+    }
+
+    table th, table tr td{
+        font-size: 12px;
     }
 }
 
