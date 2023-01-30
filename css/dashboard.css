@@ -1,102 +1,104 @@
-*{
+* {
     margin: 0;
 }
 
-body{
-    background-color: #FAFAFA;     
+body {
+    background-color: #FAFAFA;
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+header {
     width: 100vw;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     background-color: #FFFFFF;
     height: 80px;
 }
 
-#left-menu, #right-menu{
+#left-menu,
+#right-menu {
     padding: 11px 0;
 }
 
-#left-menu ul, #right-menu ul{
+#left-menu ul,
+#right-menu ul {
     display: flex;
-    /* text-align: center; */
     justify-content: center;
     align-items: center;
     padding: 0 10px;
     margin: 0;
 }
 
-#left-menu ul li, #right-menu ul li{
+#left-menu ul li,
+#right-menu ul li {
     list-style: none;
     padding: 0 12px;
 }
 
-#right-menu ul{
+#right-menu ul {
     margin: 7px 0;
 }
 
-#right-menu ul li:nth-child(3){
+#right-menu ul li:nth-child(3) {
     padding: 0 2.54px 0 0;
 }
 
-#menu-bar{
+#menu-bar {
     width: 24px;
     height: 18px;
     cursor: pointer;
 }
 
-#logo{
+#logo {
     width: 142px;
     height: 30px;
 }
 
-#search-icon{
+#search-icon {
     width: 15.59px;
     height: 15.59px;
 }
 
-#search{
+#search {
     padding-left: 20px;
     cursor: pointer;
 }
 
-#search p{
+#search p {
     font-size: 16px;
     margin-top: 18px;
     margin-left: -15px;
 }
 
-#not-icon{
+#not-icon {
     width: 21.52px;
     height: 21.06px;
     cursor: pointer;
 }
 
-#profile-pic{
+#profile-pic {
     padding-left: 28.28px;
 }
 
-#right-menu ul li p{
+#right-menu ul li p {
     font-size: 16px;
     margin: 0;
 }
 
-#down-arr{
+#down-arr {
     cursor: pointer;
 }
 
-#content{
+#content {
     display: flex;
     background-color: transparent;
 }
 
-#container{
-    width: 242px;
+#container {
+    width: auto;
     padding: 25px 29px 30px;
     align-items: center;
     background-color: #FFFFFF;
@@ -106,13 +108,13 @@ nav{
     padding: 0;
 }
 
-#container ul li{
+#container ul li {
     list-style: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-#container ul li a{
+#container ul li a {
     width: 183px;
     height: 43px;
     display: flex;
@@ -121,125 +123,139 @@ nav{
     color: #3E3E3E;
 }
 
-#container ul li a:link{
+#container ul li a:link {
     text-decoration: none;
 }
 
-#container ul li:nth-child(1){
+#container ul li:nth-child(1) {
     background-color: #FFF3F4;
 }
 
-#container ul li:nth-child(1) a p{
+#container ul li:nth-child(1) a p {
     color: #C8242F;
 }
 
-#container ul li a p{
+#container ul li a p {
     margin: 0 0 0 12.5px;
 }
 
-#container ul li a img{
+#container ul li a img {
     width: 15px;
     height: 15px;
 }
 
-#dashboard{
-    width: 100%;
-    padding: 40.75px 39px 50px;
+#dashboard {
+    width: auto;
+    padding: 40px;
+    margin: 0 auto;
 }
 
-#dashboard h1{
+#dashboard h1 {
     font-size: 30px;
     margin-bottom: 22.5px;
 }
 
-#list{
+#list {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 30px;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
-.list-items{
+.list-items {
     display: flex;
     width: 219.4px;
     height: 116px;
+    margin: 10px;
     background-color: #FFFFFF;
     border-radius: 5px;
-    padding: 31.04px 34.7px 33.87px 38.03px;
+    padding: 31.04px 26.7px 33.87px 30.03px;
     align-items: center;
 }
 
-.list-icon:nth-child(1){
+.list-icon:nth-child(1) {
     width: 33.33px;
     height: 33.34px;
 }
-.list-icon:nth-child(2){
+
+.list-icon:nth-child(2) {
     width: 23.33px;
     height: 23.34px;
 }
-.list-icon:nth-child(3){
+
+.list-icon:nth-child(3) {
     width: 26px;
     height: 26px;
 }
-.list-icon:nth-child(4){
+
+.list-icon:nth-child(4) {
     width: 33.34px;
     height: 33.33px;
 }
-.list-icon:nth-child(5){
+
+.list-icon:nth-child(5) {
     width: 28.55px;
     height: 30px;
 }
 
-.list-desc{
+.list-desc {
     color: #3E3E3E;
     padding-left: 19.33px;
 }
 
-.num{
+.num {
     font-size: 25px;
     margin: 0;
 }
 
-.list-name{
+.list-name {
     font-size: 15px;
     margin: 0;
 }
 
-#mid-items{
+#mid-items {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 
-#graph, #pie-chart{
+#graph,
+#pie-chart {
     background-color: #FFFFFF;
+    margin: 10px 0;
 }
 
-#graph{
-    width: 802px;
-    height: 400px;
+#graph {
+    /* max-width: 802px; */
+    width: auto;
+    height: auto;
     padding: 23.52px 29.42px 28.9px 28px;
     margin-right: 20px;
     border-radius: 5px;
 }
 
-#graph-header{
+#graph img {
+    width: 100%;
+}
+
+#graph-header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 12.98px;
 }
 
-#left-view h4{
+#left-view h4 {
     margin: 0;
     font-size: 22px;
     color: #3E3E3E;
 }
 
-#right-view ul{
+#right-view ul {
     display: flex;
-    
+
 }
 
-#right-view ul li{
+#right-view ul li {
     list-style: none;
     margin-right: 20.58px;
     font-size: 12px;
@@ -247,72 +263,72 @@ nav{
     color: #ADADAD;
 }
 
-#right-view ul li:nth-child(3){
+#right-view ul li:nth-child(3) {
     color: #C8242F;
     text-decoration: underline;
 }
 
-#pie-chart{
+#pie-chart {
     width: 385px;
-    height: 398px;
+    height: auto;
     border-radius: 5px;
     padding: 21.52px 39px 34.87px 29px;
 }
 
-#pie-chart h3{
+#pie-chart h3 {
     font-size: 22px;
     color: #3E3E3E;
     margin-bottom: 27.48px;
 }
 
-#pie-chart img{
+#pie-chart img {
     width: 230px;
     height: 230px;
     display: flex;
     margin: 0 auto;
 }
 
-#row-list{
+#row-list {
     display: flex;
     justify-content: space-between;
 }
 
-.rows{
+.rows {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.rows span{
+.rows span {
     width: 18px;
     height: 18px;
     border-radius: 50%;
 }
 
-.rows p{
+.rows p {
     margin: 0;
     margin-left: 9px;
 }
 
-#red{
+#red {
     background-color: #C8242F;
 }
 
-#green{
+#green {
     background-color: #A2B86C;
 }
 
-#orange{
+#orange {
     background-color: #F16C20;
 }
 
-#yellow{
+#yellow {
     background-color: #EBC844;
 }
 
-#last-row{
-    width: 1217px;
-    height: 558px;
+#last-row {
+    width: auto;
+    height: auto;
     background-color: #FFFFFF;
     padding: 22.52px 29px 26.87px 29px;
     border-radius: 5px;
@@ -324,57 +340,252 @@ nav{
     margin-bottom: 36.61px;
 }
 
-#last-row div h3{
+#last-row div h3 {
     font-size: 22px;
     color: #3E3E3E;
     margin: 0;
 }
 
-#last-row div p{
+#last-row div p {
     font-size: 12px;
     color: #C8242F;
     margin: 0;
 }
 
-table{
-    width: 100%;
-    height: 435px;
+table {
     color: #3E3E3E;
     font-weight: normal;
 }
 
-table tr td:nth-child(5){
+table tr td:nth-child(5) {
     text-align: center;
-    padding: 10px;
-    margin: 10px;
 }
 
-table th{
-    font-size: 15px;
+table th {
     color: #ADADAD;
     font-weight: normal;
     letter-spacing: 1.5px;
 }
 
-table tr td{
-    font-size: 15px;
-}
 
-table tr:nth-child(n+1):nth-child(-n+9){
+table tr:nth-child(n+1):nth-child(-n+9) {
     border-bottom: 1px solid #E9E9E9;
 }
 
-.paid{
+.paid {
     background-color: #EBFFEF;
     color: #3CDD5F;
 }
 
-.failed{
+.failed {
     color: #FF4545;
     background-color: #FFF5F5;
 }
 
-.pending{
+.pending {
     color: #BABABA;
     background-color: #F8F8F8;
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    #left-menu ul li{
+        padding: 0 5px;
+    }
+    #search{
+        padding: 0;
+    }
+    #search p{
+        font-size: 15px;
+    }
+    #logo{
+        width: 120px;
+    }
+    #dashboard h1 {
+        font-size: 20px;
+    }
+
+    .list-items {
+        width: 150px;
+        height: 90px;
+        padding: 0 10px;
+    }
+
+    .list-items .list-icon{
+        width: 25px;
+        height: 25px;
+    }
+
+    .num {
+        font-size: 18px;
+    }
+
+    .list-desc {
+        font-size: 8px;
+        padding-left: 10px;
+    }
+
+    #mid-items {
+        width: 100%;
+    }
+
+    #dashboard {
+        width: 400px;
+        padding: 20px;
+    }
+
+    #container {
+        padding: 20px 10px;
+    }
+
+    #container ul li a {
+        width: 120px;
+        height: 35px;
+    }
+
+    #container ul li a p{
+        margin-left: 7px;
+    }
+    
+    #pie-chart{
+        width: 300px;
+    }
+
+    #pie-chart h3,
+    #left-view h4,
+    #last-row div h3 {
+        font-size: 18px;
+    }
+
+    #right-view ul li {
+        font-size: 10px;
+    }
+
+    .rows p {
+        font-size: 15px;
+    }
+    #last-row{
+        overflow: scroll;
+    }
+    table{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #dashboard h1 {
+        font-size: 22px;
+    }
+
+    .list-items {
+        width: 200px;
+        height: 100px;
+    }
+
+    .list-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .num {
+        font-size: 18px;
+    }
+
+    .list-desc {
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    #mid-items {
+        width: 100%;
+    }
+
+    #dashboard {
+        width: 600px;
+        padding: 20px;
+    }
+
+    #container {
+        padding: 20px 10px;
+    }
+
+    #container ul li a {
+        width: 130px;
+        height: 40px;
+    }
+
+    #container ul li a p{
+        margin-left: 7px;
+    }
+
+    #pie-chart h3,
+    #left-view h4,
+    #last-row div h3 {
+        font-size: 20px;
+    }
+
+    .rows p {
+        font-size: 15px;
+    }
+    #last-row{
+        overflow: scroll;
+    }
+    table{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #dashboard h1 {
+        font-size: 25px;
+    }
+
+    .num {
+        font-size: 20px;
+    }
+
+    .list-desc {
+        font-size: 13px;
+    }
+
+    #mid-items {
+        width: 719px;
+    }
+
+    #dashboard {
+        padding: 35px;
+    }
+
+    #container {
+        padding: 20px 10px;
+    }
+
+    #pie-chart h3,
+    #left-view h4,
+    #last-row div h3 {
+        font-size: 20px;
+    }
+
+    .rows p {
+        font-size: 15px;
+    }
+
+    table th,
+    table tr td {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    #dashboard h1 {
+        font-size: 27px;
+    }
+
+    .num {
+        font-size: 22px;
+    }
+
+    .list-desc {
+        font-size: 14px;
+    }
 }

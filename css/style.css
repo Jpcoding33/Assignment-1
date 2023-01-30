@@ -10,6 +10,7 @@ body {
 #section {
     background-color: #FAFAFA;
     padding: 72px 140px;
+    height: auto;
 }
 
 #hero-image {
