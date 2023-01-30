@@ -496,3 +496,11 @@ select{
     color: #C8242F;
 }
 
+#red-line{
+    position: relative;
+    top: 31px;
+    right: 248px;
+    width: 59px;
+    height: 1px;
+    border: 2px solid #C8242F;
+}
