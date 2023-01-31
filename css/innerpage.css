@@ -1,28 +1,30 @@
-*{
+* {
     margin: 0;
 }
 
-body{
-    background-color: #FAFAFA;     
+body {
+    background-color: #FAFAFA;
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+header {
     width: 100vw;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     background-color: #FFFFFF;
     height: 80px;
 }
 
-#left-menu, #right-menu{
+#left-menu,
+#right-menu {
     padding: 11px 0;
 }
 
-#left-menu ul, #right-menu ul{
+#left-menu ul,
+#right-menu ul {
     display: flex;
     /* text-align: center; */
     justify-content: center;
@@ -31,72 +33,73 @@ nav{
     margin: 0;
 }
 
-#left-menu ul li, #right-menu ul li{
+#left-menu ul li,
+#right-menu ul li {
     list-style: none;
     padding: 0 12px;
 }
 
-#right-menu ul{
+#right-menu ul {
     margin: 7px 0;
 }
 
-#right-menu ul li:nth-child(3){
+#right-menu ul li:nth-child(3) {
     padding: 0 2.54px 0 0;
 }
 
-#menu-bar{
+#menu-bar {
     width: 24px;
     height: 18px;
     cursor: pointer;
 }
 
-#logo{
+#logo {
     width: 142px;
     height: 30px;
 }
 
-#search-icon{
+#search-icon {
     width: 15.59px;
     height: 15.59px;
 }
 
-#search{
-    padding-left: 20px;
+#search {
+    display: flex;
+    align-items: center;
     cursor: pointer;
 }
 
-#search p{
+#search p {
     font-size: 16px;
     margin-top: 18px;
-    margin-left: -15px;
 }
 
-#not-icon{
+#not-icon {
     width: 21.52px;
     height: 21.06px;
     cursor: pointer;
 }
 
-#profile-pic{
+#profile-pic {
     padding-left: 28.28px;
 }
 
-#right-menu ul li p{
+#right-menu ul li p {
     font-size: 16px;
     margin: 0;
 }
 
-#down-arr{
+#down-arr {
     cursor: pointer;
 }
 
-#content{
+#content {
     display: flex;
     background-color: transparent;
 }
 
-#container{
-    width: 242px;
+#container {
+    width: auto;
     padding: 25px 29px 30px;
     align-items: center;
     background-color: #FFFFFF;
@@ -106,13 +109,13 @@ nav{
     padding: 0;
 }
 
-#container ul li{
+#container ul li {
     list-style: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-#container ul li a{
+#container ul li a {
     width: 183px;
     height: 43px;
     display: flex;
@@ -121,94 +124,109 @@ nav{
     color: #3E3E3E;
 }
 
-#container ul li a:link{
+#container ul li a:link {
     text-decoration: none;
 }
 
-#container ul li:nth-child(2){
+#container ul li:nth-child(2) {
     background-color: #FFF3F4;
 }
 
-#container ul li:nth-child(2) a p{
+#container ul li:nth-child(2) a p {
     color: #C8242F;
 }
 
-#container ul li a p{
+#container ul li a p {
     margin: 0 0 0 12.5px;
 }
 
-#container ul li a img{
+#container ul li a img {
     width: 15px;
     height: 15px;
 }
 
-#analysis{
+#analysis {
     width: 100%;
-    padding: 40.75px 50px 39px 50px;
+    padding: 40px 50px;
 }
 
-#analysis form{
+#analysis form {
     background-color: #FFFFFF;
     padding: 22.52px 30.5px 35.87px 29px;
     border-radius: 5px;
 }
 
-#first-col, #second-col, #third-col, #fourth-col{
+#first-col,
+#second-col,
+#third-col,
+#fourth-col {
     margin-bottom: 47.02px;
 }
 
-#first-col h3{
+#first-col h3 {
     font-size: 22px;
     color: #3E3E3E;
 }
 
-#first-col{
+#first-col {
     display: flex;
     flex-direction: column;
 }
 
-#first-col input, #first-col select{
+#first-col input,
+#first-col select {
     height: 49px;
 }
 
-#first-col textarea{
+#first-col textarea {
     height: 130px;
 }
 
-#first-col input, #first-col select, #first-col textarea{
+#first-col input,
+#first-col select,
+#first-col textarea {
     border: 1px solid #ADADAD;
     border-radius: 5px;
     padding-left: 15px;
     margin-bottom: 21px;
 }
 
-#first-col textarea{
+#first-col textarea {
     margin: 0;
 }
 
-input:focus, select:focus, textarea:focus{
+input:focus,
+select:focus,
+textarea:focus {
     outline: none;
 }
 
-select{
+select {
     color: #ADADAD;
 }
 
-#second-col div{
-   display: flex; 
-   margin-bottom: 20px;
+#second-col div {
+    margin-bottom: 20px;
 }
 
-#second-col h3 , #third-col h3, #fourth-col h3{
+#second-col h3,
+#third-col h3,
+#fourth-col h3 {
     font-size: 22px;
     color: #3E3E3E;
 }
 
-#second-col div input{
+#second-col div input {
     margin-right: 30px;
 }
 
-#second-col input, #second-col fieldset, #second-col select, #third-col fieldset, #fourth-col fieldset, #fourth-col input, #fourth-col select{
+#second-col input,
+#second-col fieldset,
+#second-col select,
+#third-col fieldset,
+#fourth-col fieldset,
+#fourth-col input,
+#fourth-col select {
     width: 100%;
     height: 49px;
     padding-left: 10px;
@@ -216,12 +234,13 @@ select{
     border-radius: 5px;
 }
 
-#second-col fieldset{
+#second-col fieldset {
     margin-top: -5px;
     height: 55px;
 }
 
-#second-col fieldset legend, #third-col fieldset legend{
+#second-col fieldset legend,
+#third-col fieldset legend {
     font-size: 12px;
     margin: 0;
     padding: 0 5px;
@@ -229,48 +248,45 @@ select{
     color: #ADADAD;
 }
 
-#second-col fieldset input, #third-col fieldset input, #fourth-col fieldset input{
+#second-col fieldset input,
+#third-col fieldset input,
+#fourth-col fieldset input {
     border: none;
-    height: 90%;
+    height: 80%;
     padding: 0;
     margin: 0;
     width: 100%;
     background-color: #FFFFFF;
 }
 
-#third-col div, #fourth-col div{
+#third-col div {
     display: flex;
     margin-bottom: 20px;
 }
 
-#third-col fieldset, #fourth-col fieldset{
+#third-col fieldset,
+#fourth-col fieldset {
     height: 55px;
 }
 
-#third-col fieldset:nth-child(n+1):nth-child(-n+2){
-    margin-right: 10px;
-    border: 1px solid #ADADAD;
-}
-
-#third-col fieldset:nth-child(3){
+#third-col fieldset:nth-child(3) {
     border: 1px dotted #ADADAD;
 }
 
-#fourth-col fieldset{
+#focus-border {
+    border: 1px solid #C8242F;
+}
+
+#fourth-col fieldset {
     margin-right: 10px;
     border: 1px solid #ADADAD;
 }
 
-#fourth-col input{
-    margin-right: 10px;
-    margin-top: 6px;
+#fourth-col select {
+    margin-top: 2px;
 }
 
-#fourth-col select{
-    margin-top: 6px;
-}
-
-#fourth-col fieldset legend{
+#fourth-col fieldset legend {
     font-size: 12px;
     margin: 0;
     padding: 0 5px;
@@ -278,62 +294,56 @@ select{
     color: #ADADAD;
 }
 
-#fourth-col div .highlighted{
+#fourth-col div .highlighted {
     border: 1px solid #FF3B3B;
 }
 
-#fourth-col div .highlighted legend{
+#fourth-col div .highlighted legend {
     color: #FF3B3B;
 }
 
-#fourth-col div{
+#fourth-col div {
     margin-bottom: 10px;
 }
 
-#validate p{
-    margin-left: 10px;
-    margin-right: 190px;
-    font-size: 12px;
-    margin-bottom: 0;
-}
-
-#validate p:nth-child(1){
+#en-va-da {
     color: #FF3B3B;
 }
 
-#validate p:nth-child(2){
-    color: #ADADAD;
+#other-col input {
+    width: auto;
+    height: auto;
 }
 
-.msg-icon{
+.msg-icon {
     width: 20px;
     height: 20px;
 }
 
-#other-col h3{
+#other-col h3 {
     font-size: 22px;
     color: #3E3E3E;
     margin-bottom: 21.13px;
 }
 
-#other-col div h4{
+#other-col div h4 {
     font-size: 18px;
     color: #3E3E3E;
 }
 
-#file-upload{
+#file-upload {
     margin-bottom: 36.15px;
 }
 
-#file-upload h4{
+#file-upload h4 {
     margin-bottom: 15.85px;
 }
 
-#file-upload div{
+#file-upload div {
     display: flex;
 }
 
-#file-upload div button{
+#file-upload div button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -343,13 +353,14 @@ select{
     border-radius: 18px;
     background-color: transparent;
 }
-#file-upload div button p{
+
+#file-upload div button p {
     margin: 0;
     margin-left: 10px;
     color: #C8242F;
 }
 
-#file-upload div p{
+#file-upload div p {
     font-size: 12px;
     color: #ADADAD;
     margin: 0;
@@ -357,50 +368,51 @@ select{
     margin-left: 19.5px;
 }
 
-#radio-btns{
+#radio-btns {
     margin-bottom: 32.52px;
 }
 
-#radio-btns h4{
+#radio-btns h4 {
     margin-bottom: 11.48px;
 }
 
-#radio-btns div input{
+#radio-btns div input {
     margin-right: 9.42px;
 }
+
 #radio-btns div span {
     margin-right: 42.75px;
 }
 
-#checkbox{
+#checkbox {
     margin-bottom: 34.52px;
 }
 
-#checkbox h4{
+#checkbox h4 {
     margin-bottom: 12.48px;
 }
 
-#checkbox div input{
+#checkbox div input {
     margin-right: 9.1px;
 }
 
-#checkbox div span{
+#checkbox div span {
     margin-right: 36.9px;
 }
 
-#snackbar{
+#snackbar {
     margin-bottom: 34.15px;
 }
 
-#snackbar h4{
+#snackbar h4 {
     margin-bottom: 15.85px;
 }
 
-#snackbar div{
+#snackbar div {
     display: flex;
 }
 
-#snackbar div span{
+#snackbar div span {
     display: flex;
     width: 563px;
     height: 44px;
@@ -409,43 +421,44 @@ select{
     border-radius: 5px;
     align-items: center;
 }
-#snackbar div span p{
+
+#snackbar div span p {
     margin: 0;
 }
 
-#snackbar div span img{
+#snackbar div span img {
     margin: 0 10px;
 }
 
-#error{
+#error {
     border: 1px solid #FF3535;
     color: #FF3535;
 }
 
-#info{
+#info {
     border: 1px solid #00B9E1;
     color: #00B9E1;
 }
 
-#warning{
+#warning {
     border: 1px solid #FFA800;
     color: #FFA800;
 }
 
-#success{
+#success {
     border: 1px solid #00AF27;
     color: #00AF27;
 }
 
-#cta{
+#cta {
     margin-bottom: 34.65px;
 }
 
-#cta h4{
+#cta h4 {
     margin-bottom: 15.35px;
 }
 
-#cta div button{
+#cta div button {
     width: 124px;
     height: 45px;
     margin-right: 20.5px;
@@ -453,38 +466,38 @@ select{
     border: 1px solid #C8242F;
 }
 
-#cta div button p{
+#cta div button p {
     align-items: center;
-     justify-content: center;
-     margin-bottom: 0;
+    justify-content: center;
+    margin-bottom: 0;
 }
 
-#primary-btn{
+#primary-btn {
     background-color: #C8242F;
     color: #FFFFFF;
 }
 
-#second-btn{
+#second-btn {
     background-color: transparent;
     color: #C8242F;
 }
 
-#tab h4{
+#tab h4 {
     margin-bottom: 21.48px;
 }
 
-#tab div{
+#tab div {
     border-bottom: 1px solid #ADADAD;
     margin-bottom: 26.63px;
 }
 
-#tab div ul{
+#tab div ul {
     display: flex;
     padding: 0;
     margin-bottom: 10px;
 }
 
-#tab div ul li{
+#tab div ul li {
     list-style: none;
     margin-right: 36px;
     margin-left: 10px;
@@ -492,15 +505,329 @@ select{
     color: #ADADAD;
 }
 
-#tab div ul li:nth-child(1){
+#tab div ul li:nth-child(1) {
     color: #C8242F;
 }
 
-#red-line{
+#red-line {
     position: relative;
     top: 31px;
     right: 248px;
     width: 59px;
     height: 1px;
     border: 2px solid #C8242F;
+}
+
+@media (max-width: 575px) {
+
+    #left-menu,
+    #right-menu {
+        padding: 10px 0;
+    }
+
+    nav {
+        height: 60px;
+    }
+
+    #left-menu ul {
+        padding: 0 5px;
+    }
+
+    #left-menu ul li {
+        padding: 0 4px;
+    }
+
+    #right-menu ul {
+        padding: 0 5px;
+    }
+
+    #right-menu ul li {
+        padding: 0 4px;
+    }
+
+    #right-menu ul li p {
+        font-size: 10px;
+    }
+
+    #not-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    #profile-pic {
+        padding-left: 10px;
+        width: 40px;
+        height: 30px;
+    }
+
+    #down-arr {
+        width: 15px;
+        height: 15px;
+    }
+
+    #search ul {
+        padding: 0;
+    }
+
+    #search p {
+        font-size: 10px;
+    }
+
+    #logo {
+        width: 90px;
+    }
+
+    #analysis {
+        padding: 20px 30px;
+    }
+
+    #analysis h1 {
+        font-size: 1.75rem;
+    }
+
+    #first-col h3,
+    #second-col h3,
+    #third-col h3,
+    #fourth-col h3,
+    #other-col h3 {
+        font-size: 18px;
+    }
+
+    #file-upload h4,
+    #radio-btns h4,
+    #checkbox h4,
+    #snackbar h4,
+    #cta h4,
+    #tab h4 {
+        font-size: 16px;
+    }
+
+    #first-col input,
+    #first-col select,
+    #second-col input,
+    #second-col select,
+    #fourth-col input,
+    #fourth-col select {
+        height: 35px;
+    }
+
+    #second-col fieldset,
+    #third-col fieldset,
+    #fourth-col fieldset {
+        height: 43px;
+    }
+
+    #other-col input {
+        height: auto;
+    }
+
+    #other-col div h4{
+        font-size: 16px;
+    }
+
+    #file-upload div button{
+        width: 105px;
+        height: 35px;
+    }
+
+    #file-upload div p{
+        padding: 0;
+        margin-top: 7px;
+    }
+
+    #snackbar div {
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    #snackbar div span p {
+        font-size: 13px;
+    }
+
+    #cta div button {
+        width: 90px;
+        height: 34px;
+    }
+
+    #cta div button p {
+        font-size: 13px;
+    }
+
+    #tab div ul li{
+        margin-right: 15px;
+        font-size: 13px;
+    }
+
+    #tab p{
+        font-size: 13px;
+    }
+
+    #red-line{
+        top: 28px;
+        right: 170px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #left-menu ul li {
+        padding: 0 5px;
+    }
+
+    #right-menu ul li {
+        padding: 0 6px;
+    }
+
+    #profile-pic {
+        padding-left: 20px;
+    }
+
+    #search ul {
+        padding: 0;
+    }
+
+    #search p {
+        font-size: 15px;
+    }
+
+    #logo {
+        width: 120px;
+    }
+
+    #analysis {
+        padding: 20px 30px;
+    }
+
+    #analysis h1 {
+        font-size: 2rem;
+    }
+
+    #first-col h3,
+    #second-col h3,
+    #third-col h3,
+    #fourth-col h3,
+    #other-col h3 {
+        font-size: 20px;
+    }
+
+    #file-upload h4,
+    #radio-btns h4,
+    #checkbox h4,
+    #snackbar h4,
+    #cta h4,
+    #tab h4 {
+        font-size: 18px;
+    }
+
+    #first-col input,
+    #first-col select,
+    #second-col input,
+    #second-col select,
+    #fourth-col input,
+    #fourth-col select {
+        height: 40px;
+    }
+
+    #second-col fieldset,
+    #third-col fieldset,
+    #fourth-col fieldset {
+        height: 45px;
+    }
+
+    #other-col input {
+        height: auto;
+    }
+
+    #snackbar div span p {
+        font-size: 14px;
+    }
+
+    #cta div button {
+        width: 110px;
+        height: 40px;
+    }
+
+    #cta div button p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #analysis h1 {
+        font-size: 2rem;
+    }
+
+    #first-col h3,
+    #second-col h3,
+    #third-col h3,
+    #fourth-col h3,
+    #other-col h3 {
+        font-size: 20px;
+    }
+
+    #file-upload h4,
+    #radio-btns h4,
+    #checkbox h4,
+    #snackbar h4,
+    #cta h4,
+    #tab h4 {
+        font-size: 18px;
+    }
+
+    #first-col input,
+    #first-col select,
+    #second-col input,
+    #second-col select,
+    #fourth-col input,
+    #fourth-col select {
+        height: 40px;
+    }
+
+    #second-col fieldset,
+    #third-col fieldset,
+    #fourth-col fieldset {
+        height: 45px;
+    }
+
+    #other-col input {
+        height: auto;
+    }
+
+    #cta div button {
+        width: 110px;
+        height: 40px;
+    }
+
+    #cta div button p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #analysis h1 {
+        font-size: 2.15rem;
+    }
+
+    #first-col h3,
+    #second-col h3,
+    #third-col h3,
+    #fourth-col h3,
+    #other-col h3 {
+        font-size: 20px;
+    }
+
+    #file-upload h4,
+    #radio-btns h4,
+    #checkbox h4,
+    #snackbar h4,
+    #cta h4,
+    #tab h4 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    #analysis h1 {
+        font-size: 2.25rem;
+    }
 }

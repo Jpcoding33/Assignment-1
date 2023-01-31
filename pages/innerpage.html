@@ -19,12 +19,8 @@
                     <li><img id="logo" src="/images/logo.svg" alt=""></li>
                     <li>
                         <div id="search">
-                            <ul>
-                                <li><img id="search-icon" src="/images/search-icon.svg" alt=""></li>
-                                <li>
-                                    <p>Search</p>
-                                </li>
-                            </ul>
+                            <img id="search-icon" src="/images/search-icon.svg" alt="">
+                            <p>Search</p>
                         </div>
                     </li>
                 </ul>
@@ -101,136 +97,169 @@
                 </div>
                 <div id="second-col">
                     <h3>Two Column</h3>
-                    <div>
-                        <input type="text" placeholder="Name">
-                        <fieldset id="field-set">
-                            <legend>Username</legend>
-                            <input type="text" value="johndoe">
-                        </fieldset>
-                    </div>
-                    <div>
-                        <input type="password" name="" id="" placeholder="Password">
-                        <select id="drop-down" name="Dropdown">
-                            <option>Dropdown</option>
-                        </select>
-                    </div>
-                </div>
-                <div id="third-col">
-                    <h3>Three Column</h3>
-                    <div>
-                        <fieldset id="field-set">
-                            <legend>Focus</legend>
-                            <input type="text" value="johndoe">
-                        </fieldset>
-                        <fieldset id="field-set">
-                            <legend>Password</legend>
-                            <input type="password" value="dfdyghvb">
-                        </fieldset>
-                        <fieldset id="field-set" disabled>
-                            <legend>Disabled</legend>
-                            <input type="text" value="johndoe">
-                        </fieldset>
-                    </div>
-                </div>
-                <div id="fourth-col">
-                    <h3>Four Column</h3>
-                    <div>
-                        <fieldset id="field-set" class="highlighted">
-                            <legend>Designation</legend>
-                            <input type="text" value="UI Designer">
-                        </fieldset>
-                        <input type="password" name="" id="" placeholder="Password">
-                        <fieldset id="field-set">
-                            <legend>Username</legend>
-                            <input type="text" value="johndoe">
-                        </fieldset>
-                        <select id="drop-down" name="Dropdown">
-                            <option>Dropdown</option>
-                        </select>
-                    </div>
-                    <div id="validate">
-                        <p>Enter Valid data</p>
-                        <p>Enter your full Name as per ID</p>
-                    </div>
-                </div>
-                <div id="other-col">
-                    <h3>Other Design Elements</h3>
-                    <div id="file-upload">
-                        <h4>File Upload</h4>
-                        <div>
-                            <button>
-                                <img src="/images/cloud-upload-icon.svg" alt="">
-                                <p>Upload</p>
-                            </button>
-                            <p>No item Selected</p>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="col-sm-6">
+                            <fieldset id="field-set">
+                                <legend>Username</legend>
+                                <input type="text" value="johndoe">
+                            </fieldset>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="password" name="" id="" placeholder="Password">
+                        </div>
+                        <div class="col-sm-6">
+                            <select id="drop-down" name="Dropdown">
+                                <option>Dropdown</option>
+                            </select>
                         </div>
                     </div>
-                    <div id="radio-btns">
-                        <h4>Radio Button</h4>
-                        <div>
-                            <input type="radio" name="options"><span>Option 1</span>
-                            <input type="radio" name="options"><span>Option 2</span>
+                    <div id="third-col">
+                        <h3>Three Column</h3>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                <fieldset id="field-set focus-border">
+                                    <legend>Focus</legend>
+                                    <input type="text" value="johndoe">
+                                </fieldset>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                <fieldset id="field-set">
+                                    <legend>Password</legend>
+                                    <input type="password" value="dfdyghvb">
+                                </fieldset>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                <fieldset id="field-set" disabled>
+                                    <legend>Disabled</legend>
+                                    <input type="text" value="johndoe">
+                                </fieldset>
+                            </div>
                         </div>
                     </div>
-                    <div id="checkbox">
-                        <h4>Checkbox</h4>
-                        <div>
-                            <input type="checkbox" name="" id=""><span>Option 1</span>
-                            <input type="checkbox" name="" id=""><span>Option 2</span>
+                    <div id="fourth-col">
+                        <h3>Four Column</h3>
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                                <fieldset id="field-set" class="highlighted">
+                                    <legend>Designation</legend>
+                                    <input type="text" value="UI Designer">
+                                </fieldset>
+                                <small id="en-va-da">Enter Valid data</small>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                                <input type="text" name="" id="" placeholder="Name">
+                                <small>Enter your full Name as per ID</small>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                                <fieldset id="field-set">
+                                    <legend>Username</legend>
+                                    <input type="text" value="johndoe">
+                                </fieldset>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                                <select id="drop-down" name="Dropdown">
+                                    <option>Dropdown</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="validate">
+
+
                         </div>
                     </div>
-                    <div id="snackbar">
-                        <h4>Snackbar</h4>
-                        <div>
-                            <span id="error">
-                                <img class="msg-icon" src="/images/error-icon.svg" alt="">
-                                <p>This is an error message!</p>
-                            </span>
-                            <span id="info">
-                                <img class="msg-icon" src="/images/info-icon.svg" alt="">
-                                <p>This is an information message!</p>
-                            </span>
+                    <div id="other-col">
+                        <h3>Other Design Elements</h3>
+                        <div id="file-upload">
+                            <h4>File Upload</h4>
+                            <div>
+                                <button>
+                                    <img src="/images/cloud-upload-icon.svg" alt="">
+                                    <p>Upload</p>
+                                </button>
+                                <p>No item Selected</p>
+                            </div>
                         </div>
-                        <div>
-                            <span id="warning">
-                                <img class="msg-icon" src="/images/warning-icon.svg" alt="">
-                                <p>This is a warning message!</p>
-                            </span>
-                            <span id="success">
-                                <img class="msg-icon" src="/images/success-icon.svg" alt="">
-                                <p>This is a success message!</p>
-                            </span>
+                        <div id="radio-btns">
+                            <h4>Radio Button</h4>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="radio" name="options"><span>Option 1</span>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="radio" name="options"><span>Option 2</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="checkbox">
+                            <h4>Checkbox</h4>
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6">
+                                    <input type="checkbox" name="" id=""><span>Option 1</span>
+                                </div>
+                                <div class="col-sm-6 col-md-6">
+                                    <input type="checkbox" name="" id=""><span>Option 2</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="snackbar">
+                            <h4>Snackbar</h4>
+                            <div>
+                                <span id="error">
+                                    <img class="msg-icon" src="/images/error-icon.svg" alt="">
+                                    <p>This is an error message!</p>
+                                </span>
+                                <span id="info">
+                                    <img class="msg-icon" src="/images/info-icon.svg" alt="">
+                                    <p>This is an information message!</p>
+                                </span>
+                            </div>
+                            <div>
+                                <span id="warning">
+                                    <img class="msg-icon" src="/images/warning-icon.svg" alt="">
+                                    <p>This is a warning message!</p>
+                                </span>
+                                <span id="success">
+                                    <img class="msg-icon" src="/images/success-icon.svg" alt="">
+                                    <p>This is a success message!</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="cta">
+                            <h4>Call to action</h4>
+                            <div>
+                                <button id="primary-btn">
+                                    <p>Primary</p>
+                                </button>
+                                <button id="second-btn">
+                                    <p>Secondary</p>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="tab">
+                            <h4>Tabs</h4>
+                            <div>
+                                <ul>
+                                    <li>Tab 1</li>
+                                    <li>Tab 2</li>
+                                    <li>Tab 3</li>
+                                    <span id="red-line"></span>
+                                </ul>
+
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five
+                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                unchanged.
+                                It was popularised in the 1960s with the release of Letraset sheets containing</p>
                         </div>
                     </div>
-                    <div id="cta">
-                        <h4>Call to action</h4>
-                        <div>
-                            <button id="primary-btn">
-                                <p>Primary</p>
-                            </button>
-                            <button id="second-btn">
-                                <p>Secondary</p>
-                            </button>
-                        </div>
-                    </div>
-                    <div id="tab">
-                        <h4>Tabs</h4>
-                        <div>
-                            <ul>
-                                <li>Tab 1</li>
-                                <li>Tab 2</li>
-                                <li>Tab 3</li>
-                                <span id="red-line"></span>
-                            </ul>
-                            
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book. It has survived not only five
-                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                            It was popularised in the 1960s with the release of Letraset sheets containing</p>
-                    </div>
-                </div>
             </form>
         </div>
     </div>
